@@ -1123,8 +1123,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7618383860986743235}
   - component: {fileID: 7618383860979066401}
-  - component: {fileID: 1031729471186350585}
   - component: {fileID: 1031729471186350584}
+  - component: {fileID: 5237394428444817874}
   m_Layer: 3
   m_Name: Beholder
   m_TagString: Untagged
@@ -1167,19 +1167,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!135 &1031729471186350585
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7618383860986320355}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.4345506
-  m_Center: {x: 0, y: 1.4718362, z: 0.0000045378797}
 --- !u!114 &1031729471186350584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,6 +1183,32 @@ MonoBehaviour:
   fire: {fileID: 2100000, guid: c3facc6536b8be44db48df63cd0279e7, type: 2}
   water: {fileID: 2100000, guid: aad93c68cc4d4d842a9d00ded5eaa70f, type: 2}
   smoke: {fileID: 2100000, guid: 6c25a32c946a0cc419c68d9a8301bfb2, type: 2}
+--- !u!61 &5237394428444817874
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7618383860986320355}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.15724948, y: 1.4563054}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2196412, y: 1.5288374}
+  m_EdgeRadius: 0
 --- !u!1 &7618383860986320357
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour
         state = (State) Random.Range(0, 3);
         lives = Random.Range(2, 5);
         SetUpEnemy();
+        
+        print("BEHOLDER POS " + transform.position + " " + Camera.main.WorldToScreenPoint(transform.position));
     }
 
     void SetUpEnemy()
@@ -50,7 +52,12 @@ public class EnemyController : MonoBehaviour
             state = (State) Random.Range(0, 3);
         }
         lives -= 1;
-        if (lives < 1) Destroy(gameObject);
+        if (lives < 1)
+        {
+            //Tu ho dame prec zo spawnera
+            GameObject.Find("SpawnPlatform").GetComponent<Spawner>().monsters.Remove(gameObject);
+            Destroy(gameObject);
+        }
         else
         {
             SetUpEnemy();

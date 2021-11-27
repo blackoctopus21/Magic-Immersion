@@ -12,6 +12,7 @@ public class Spawner : MonoBehaviour
     private Vector3 posTop;
     private Vector3 posBottom;
     
+    public List<GameObject> monsters;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,9 @@ public class Spawner : MonoBehaviour
         for (;;)
         {
             GameObject obj = Instantiate(enemy,transform);
-
+            
+            monsters.Add(obj);
+            
             var x = Random.Range(posTop.x, posBottom.x);
             var z = Random.Range(posBottom.z, posTop.z);
         
