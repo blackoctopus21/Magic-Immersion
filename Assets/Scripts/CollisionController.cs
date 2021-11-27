@@ -7,16 +7,16 @@ public class CollisionController : MonoBehaviour
 {
     private ParticleSystem ps;
 
-    private Spawner spawn;
+    private Spawner spawner;
 
     private List<GameObject> monsters;
 
     private Camera cam;
-    // Start is called before the first frame update
+    
     void Start()
     {
         ps = GetComponent<ParticleSystem>();
-        spawn = GameObject.Find("SpawnPlatform").GetComponent<Spawner>();
+        spawner = GameObject.Find("SpawnPlatform").GetComponent<Spawner>();
         
         cam = Camera.main;
     }
@@ -26,7 +26,7 @@ public class CollisionController : MonoBehaviour
         var m_particles = new ParticleSystem.Particle[ps.main.maxParticles];
         int alive = ps.GetParticles(m_particles);
 
-        monsters = spawn.monsters;
+        monsters = spawner.monsters;
         
         for (int i = 0; i < alive; i++)
         {
