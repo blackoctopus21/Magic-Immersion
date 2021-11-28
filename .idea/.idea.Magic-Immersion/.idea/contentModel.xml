@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AgentMove.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="Migration" t="Include">
             <e p="AddVuforiaEnginePackage.cs" t="Include" />
@@ -19,50 +20,53 @@
             </e>
           </e>
         </e>
-        <e p="EffectExamples" t="Include">
-          <e p="Magic Effects" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="Ice.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Misc Effects" t="Include">
-            <e p="Prefabs" t="Include">
-              <e p="Readme_Dissolve_Respawn_.txt" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="SpawnEffect.cs" t="Include" />
-            </e>
-            <e p="Shaders" t="Include">
-              <e p="Dissolve.shader" t="Include" />
-              <e p="FireFly.shader" t="Include" />
-              <e p="Respawn.shader" t="Include" />
+        <e p="MonsterCounter.cs" t="Include" />
+        <e p="Polytope Studio" t="Include">
+          <e p="Lowpoly Medieval Environments" t="Include">
+            <e p="Sources" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="PT_Rock_Shader.shader" t="Include" />
+                <e p="PT_Rock_Shader_VS.shader" t="Include" />
+                <e p="PT_Vegetation_Flowers_Shader.shader" t="Include" />
+                <e p="PT_Vegetation_Flowers_Shader_VS.shader" t="Include" />
+                <e p="PT_Vegetation_Foliage_Shader.shader" t="Include" />
+                <e p="PT_Vegetation_Foliage_Shader_VS.shader" t="Include" />
+                <e p="PT_Vegetation_Opaque_Shader.shader" t="Include" />
+                <e p="PT_Vegetation_Opaque_Shader_VS.shader" t="Include" />
+                <e p="PT_Vegetation_Plants_Shader.shader" t="Include" />
+                <e p="PT_Vegetation_Plants_Shader_VS.shader" t="Include" />
+                <e p="PT_Water_Shader.shader" t="Include" />
+                <e p="VS_indirect.cginc" t="Include" />
+              </e>
             </e>
           </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="CollisionController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="NavMesh" t="Include">
+            <e p="NavMeshComponents" t="Include">
+              <e p="Editor" t="Include">
+                <e p="NavMeshAssetManager.cs" t="Include" />
+                <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                <e p="NavMeshLinkEditor.cs" t="Include" />
+                <e p="NavMeshModifierEditor.cs" t="Include" />
+                <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                <e p="NavMeshSurfaceEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="NavMeshLink.cs" t="Include" />
+                <e p="NavMeshModifier.cs" t="Include" />
+                <e p="NavMeshModifierVolume.cs" t="Include" />
+                <e p="NavMeshSurface.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="PositionFixer.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
           <e p="Switcher.cs" t="Include" />
           <e p="VoiceRecognition.cs" t="Include" />
         </e>
-        <e p="Shared" t="Include">
-          <e p="Ramps" t="Include">
-            <e p="Editor" t="Include">
-              <e p="RampAssetEditor.cs" t="Include" />
-            </e>
-            <e p="Runtime" t="Include">
-              <e p="RampAsset.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="AdjustTimeScale.cs" t="Include" />
-            <e p="ProximityActivate.cs" t="Include" />
-            <e p="SimpleCameraController.cs" t="Include" />
-            <e p="SimpleCharacterMotor.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Spawner.cs" t="Include" />
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">
             <e p="MagicImmersion.xml" t="Include" />
@@ -101,6 +105,8 @@
       </e>
       <e p="EditorMigrationScripts.csproj" t="IncludeRecursive" />
       <e p="Magic-Immersion.sln" t="IncludeFlat" />
+      <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
+      <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />

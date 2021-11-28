@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="413b5670-95dc-4bd3-8f68-a9521f5ab071" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic-Immersion/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magic-Immersion/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic-Immersion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magic-Immersion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Polytope Studio/Lowpoly Medieval Environments/SRP/PT_Environment_Pack_URP_7.5.3.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/Beholder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/Beholder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPBR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPBR.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPBR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPBR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPolyart.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/BeholderPolyart.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AgentMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MonsterCounter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MonsterCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/AgentMove.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638031987443</updated>
       <workItem from="1638032000920" duration="4476000" />
+      <workItem from="1638118647535" duration="666000" />
     </task>
     <servers />
   </component>
@@ -80,6 +111,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
