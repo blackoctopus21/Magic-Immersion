@@ -7,6 +7,7 @@ TagManager:
   - Shootable
   - ParticleSwitcher
   - AgentLocations
+  - GUI
   layers:
   - Default
   - TransparentFX

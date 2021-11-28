@@ -1128,7 +1128,7 @@ GameObject:
   - component: {fileID: 5674371336390274658}
   - component: {fileID: -4663168681127028648}
   m_Layer: 3
-  m_Name: Beholder
+  m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

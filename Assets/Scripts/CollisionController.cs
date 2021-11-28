@@ -21,7 +21,7 @@ public class CollisionController : MonoBehaviour
         cam = Camera.main;
     }
     
-    private void Update()
+    private void Update1()
     {
         var m_particles = new ParticleSystem.Particle[ps.main.maxParticles];
         int alive = ps.GetParticles(m_particles);

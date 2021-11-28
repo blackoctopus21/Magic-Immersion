@@ -11,18 +11,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2360449a-3d44-46b7-9d27-c8e9e3ec12b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magic Immersion/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgentMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AgentMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MonsterCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MonsterCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/Beholder.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPGMonsterPartnersPBRPolyart/Prefabs/Beholder.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MonsterTarget.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/MonsterTarget.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PositionFixer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PositionFixer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Switcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VoiceRecognition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VoiceRecognition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Stylized Lava Materials/Lava01/M_Lava01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Stylized Lava Materials/Lava01/M_Lava01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/ReadmeLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/ReadmeLogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +113,7 @@
       <workItem from="1636202690385" duration="8684000" />
       <workItem from="1636302472016" duration="1658000" />
       <workItem from="1638037610026" duration="1292000" />
+      <workItem from="1638129710122" duration="5055000" />
     </task>
     <servers />
   </component>

@@ -6,6 +6,8 @@ public class Spawner : MonoBehaviour
 {
     public GameObject enemy;
 
+    private MonsterCounter monsterCounter;
+
     public GameObject topLeft;
     public GameObject bottomRight;
 
@@ -13,9 +15,12 @@ public class Spawner : MonoBehaviour
     private Vector3 posBottom;
     
     public List<GameObject> monsters;
+    
     // Start is called before the first frame update
     void Start()
     {
+        monsterCounter = GameObject.FindWithTag("GUI").GetComponent<MonsterCounter>();
+        
         posTop = topLeft.transform.localPosition;
         posBottom = bottomRight.transform.localPosition;
         
@@ -28,6 +33,7 @@ public class Spawner : MonoBehaviour
     {
         for (;;)
         {
+            yield return new WaitForSeconds(5);
             GameObject obj = Instantiate(enemy,transform);
             
             monsters.Add(obj);
@@ -36,15 +42,18 @@ public class Spawner : MonoBehaviour
             var z = Random.Range(posBottom.z, posTop.z);
         
             Vector3 newPos = new Vector3(x,0,z);
-            print(newPos);
             obj.transform.localPosition = newPos;
 
-            float scaleYZ = obj.transform.localScale.y;
-            obj.transform.localScale = new Vector3(0.4915436f,scaleYZ,scaleYZ);
+            //float scaleYZ = obj.transform.localScale.y;
+            //obj.transform.localScale = new Vector3(0.4915436f,scaleYZ,scaleYZ);
+            //obj.transform.localScale = new Vector3(scaleYZ,scaleYZ,scaleYZ);
 
             print(obj.transform.position);
+            
+            //notify GUI of new monster
+            monsterCounter.AddNewMonster();
 
-            yield return new WaitForSeconds(15);
+            yield return new WaitForSeconds(10);
         }
     }
 
