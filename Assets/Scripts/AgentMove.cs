@@ -10,36 +10,46 @@ public class AgentMove : MonoBehaviour
     private List<GameObject> destinations;
     private NavMeshAgent agent;
     private Vector3 destinationPosition;
-    
+    private int destinationIndex;
+
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
+        animator = gameObject.GetComponent<Animator>();
+        
         destinations = new List<GameObject>(GameObject.FindGameObjectsWithTag("AgentLocations"));
         agent = gameObject.GetComponent<NavMeshAgent>();
-        
+
         ChooseNewDestination();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("AgentLocations"))
+        //print(other.transform.name);
+        if (other.CompareTag("AgentLocations") && other.transform.position == destinationPosition)
         {
-            float distance = ManhattanDistanceXZ(destinationPosition, other.transform.position);
-            if (distance <= 0.2)
-            {
-                ChooseNewDestination();
-            }
+            animator.SetInteger("StayAnimation",Random.Range(1,5));
+
+            StartCoroutine("StayInPlace");
+
         }
+    }
+
+    IEnumerator StayInPlace()
+    {
+        yield return new WaitForSeconds(3);
+        ChooseNewDestination();
+        animator.SetInteger("StayAnimation",0);
     }
 
     void ChooseNewDestination()
     {
-        destinationPosition = destinations[Random.Range(0,destinations.Count)].transform.position;
+        destinationIndex = (destinationIndex +  Random.Range(1, destinations.Count-1) ) % destinations.Count;
+        destinationPosition = destinations[destinationIndex].transform.position;
+        
         agent.SetDestination(destinationPosition);
     }
-
-    float ManhattanDistanceXZ(Vector3 a, Vector3 b)
-    {
-        return Math.Abs(a.x - b.x) + Math.Abs(a.z - b.z);
-    }
+    
 }

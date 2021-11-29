@@ -10,6 +10,10 @@ public class EnemyController : MonoBehaviour
     public Material smoke;
     
     private int lives;
+
+    private Spawner spawner;
+
+    private Animator animator;
     public enum State
     {
         WATER,
@@ -19,6 +23,9 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spawner = GameObject.Find("SpawnPlatform").GetComponent<Spawner>();
+        animator = gameObject.GetComponent<Animator>();
+        
         state = (State) Random.Range(0, 3);
         lives = Random.Range(2, 5);
         SetUpEnemy();
@@ -54,14 +61,19 @@ public class EnemyController : MonoBehaviour
         lives -= 1;
         if (lives < 1)
         {
-            //Tu ho dame prec zo spawnera
-            GameObject.Find("SpawnPlatform").GetComponent<Spawner>().monsters.Remove(gameObject);
-            Destroy(gameObject);
+            Die();
         }
         else
         {
             SetUpEnemy();
         }
+    }
+
+    void Die()
+    {
+        animator.SetBool("Alive",false);
+        spawner.monsters.Remove(gameObject);
+        Destroy(gameObject, 2f);
     }
 
     void ChangeLayer()

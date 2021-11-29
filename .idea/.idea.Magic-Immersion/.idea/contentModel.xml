@@ -4,23 +4,13 @@
     <e p="C:\Users\risom\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\risom\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Magic-Immersion.664280189.00" t="ExcludeRecursive" />
     <e p="C:\Users\risom\OneDrive\Desktop\skola\VAR projekt\Magic-Immersion" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AgentMove.cs" t="Include" />
         <e p="Editor" t="Include">
           <e p="Migration" t="Include">
             <e p="AddVuforiaEnginePackage.cs" t="Include" />
           </e>
-          <e p="Vuforia" t="Include">
-            <e p="CylinderTargetTextures" t="Include">
-              <e p="VuforiaMars_Images" t="Include">
-                <e p="authoringinfo.xml" t="Include" />
-              </e>
-            </e>
-          </e>
         </e>
-        <e p="MonsterCounter.cs" t="Include" />
         <e p="Polytope Studio" t="Include">
           <e p="Lowpoly Medieval Environments" t="Include">
             <e p="Sources" t="Include">
@@ -42,8 +32,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AgentMove.cs" t="Include" />
           <e p="CollisionController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="MonsterCounter.cs" t="Include" />
           <e p="NavMesh" t="Include">
             <e p="NavMeshComponents" t="Include">
               <e p="Editor" t="Include">
@@ -62,7 +54,6 @@
               </e>
             </e>
           </e>
-          <e p="PositionFixer.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
           <e p="Switcher.cs" t="Include" />
           <e p="VoiceRecognition.cs" t="Include" />
@@ -92,14 +83,6 @@
               <e p="TMPro_Properties.cginc" t="Include" />
               <e p="TMPro_Surface.cginc" t="Include" />
             </e>
-          </e>
-        </e>
-        <e p="TutorialInfo" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="Editor" t="Include">
-              <e p="ReadmeEditor.cs" t="Include" />
-            </e>
-            <e p="Readme.cs" t="Include" />
           </e>
         </e>
       </e>
